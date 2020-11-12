@@ -19,7 +19,7 @@ public class App8i2 extends JFrame {
     private JLabel label3;
 
     App8i2(){
-        setLayout(new FlowLayout());
+        setLayout(new GridLayout(3,1));
         image1 = new ImageIcon("1.jpg");
         label1 = new JLabel(image1);
         image2 = new ImageIcon("2.jpg");
